@@ -82,6 +82,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>school-admission-system</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
