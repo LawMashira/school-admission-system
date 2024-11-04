@@ -1,4 +1,4 @@
-package school_admission_system.security.jwt;
+/*package school_admission_system.security.jwt;
 
 import io.jsonwebtoken.*;
 import org.springframework.beans.factory.annotation.Value;
@@ -57,3 +57,4 @@ public class JwtUtil {
     }
 }
 
+*/
