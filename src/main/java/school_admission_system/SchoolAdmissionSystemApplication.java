@@ -8,6 +8,7 @@ public class SchoolAdmissionSystemApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SchoolAdmissionSystemApplication.class, args);
+		System.out.print("lawson");
 	}
 
 }
