@@ -11,7 +11,7 @@ import java.nio.charset.StandardCharsets;
 
 @RestController
 @RequestMapping("/api/applications")
-@CrossOrigin(origins = "http://localhost:3000") // Enable CORS for specific origin
+@CrossOrigin(origins = "https://maghandi-institute.vercel.app")
 public class ApplicationController {
 
     private final ApplicationService applicationService;
