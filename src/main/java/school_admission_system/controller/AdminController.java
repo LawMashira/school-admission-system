@@ -7,7 +7,7 @@ import school_admission_system.service.ApplicationService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/admin/applicants")
+@RequestMapping("/api")
 @CrossOrigin(origins = "http://localhost:3000") // Enable CORS for specific origin
 public class AdminController {
 
@@ -17,7 +17,7 @@ public class AdminController {
         this.applicationService = applicationService;
     }
 
-  @GetMapping
+  @GetMapping("/home")
     public String home() {
         return "Welcome to the School Admission System!";
     }
