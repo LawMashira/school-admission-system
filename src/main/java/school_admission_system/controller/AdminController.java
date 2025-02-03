@@ -17,6 +17,10 @@ public class AdminController {
         this.applicationService = applicationService;
     }
 
+  @GetMapping
+    public String home() {
+        return "Welcome to the School Admission System!";
+    }
     // Fetch all applicants
     @GetMapping("/all")
     public ResponseEntity<List<Application>> getAllApplicants() {
