@@ -1,4 +1,4 @@
-/*package school_admission_system.controller;
+package school_admission_system.controller;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import school_admission_system.entity.Application;
@@ -40,4 +40,4 @@ public class AdminController {
     }
 }
 
-*/
+
