@@ -7,7 +7,7 @@ import school_admission_system.service.ApplicationService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/applicants")
 @CrossOrigin(origins = "https://maghandi-institute.vercel.app")
 public class AdminController {
 
